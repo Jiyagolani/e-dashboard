@@ -1,0 +1,212 @@
+html {
+ margin: 0;
+ padding: 0;
+ background-color:#eadaf5;
+}
+
+.nav-ul{
+  position: sticky;
+  padding: 0;
+  margin: 0;
+  background-color: #e1b8f8;
+  width: 100%;
+  
+}
+.nav-right{
+  text-align: right;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 12px;
+  margin: 0px;
+  border: 1px solid #dfacfd;
+  background-color: #ab60d6;
+  
+}
+.nav-ul li a{
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  
+}
+.nav-ul li a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: black;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #e1b8f8;
+
+  
+}
+.input{
+  margin-left: 30%;
+}
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1.5px solid black;
+
+}
+.button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: #e1b8f8;
+  border: 1px solid ;
+  cursor: pointer;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.productlist{
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+}
+.productlist ul li{
+
+  font-size: 15px;
+  display: inline-block;
+  border: 1px solid #a72fed;
+  padding: 10px;
+  width: 150px;
+  margin: 0;
+}
+.productlist ul{
+  margin: 0;
+  padding: 0;
+}
+.headings{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 1335px) {
+  html {
+    margin: 0;
+    padding: 0;
+    background-color: #eadaf5;
+   }
+   
+   .nav-ul{
+     padding: 0;
+     margin: 0;
+     background-color: #e1b8f8;
+   }
+   .nav-right{
+     text-align: right;
+   }
+   
+   .nav-ul li{
+    display: inline-block;
+    padding: 12px;
+    margin: 0;
+    border: 1px solid #e1b8f8;
+    background-color: #ac6bd1;
+    
+  }
+  .nav-ul li a{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    
+  }
+  .nav-ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+  }
+   .footer{
+     position: absolute;
+     bottom: 0;
+     text-align: center;
+    width: 100%;
+    background-color: #e1b8f8;
+   }
+   .input{
+  
+     margin-left: 15%;
+   }
+   .inputbox{
+     display: block;
+     margin: 16px;
+     padding: 10px;
+     width: 250px;
+     border: 1px solid rgb(0, 0, 0);
+   
+   }
+   .button{
+     margin: 15px;
+     padding: 10px;
+     width: 70px;
+     background-color:#e1b8f8;
+     border: 1px solid;
+     cursor: pointer;
+   }
+   .login{
+     margin-left: 15%;
+     margin-top: 150px;
+   }
+   .productlist{
+     text-align: center;
+     margin: 0px;
+   }
+   .productlist ul li{
+     display: inline-block;
+     border: 1px solid#a72fed;
+     padding: 9px;
+     width: 30px;
+     font-size: 4.5px;
+     margin: 0;
+     
+   }
+   .buttond{
+    width: 10px;
+    font-size: 2px;
+    margin: 0;
+
+    
+   }
+   .productlist ul{
+     margin: 0px;
+   }
+   .headings{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fb6161;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
